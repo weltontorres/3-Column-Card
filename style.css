@@ -1,0 +1,119 @@
+* {
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin-top: 300px;
+	background-color: white;
+	height: 100%;
+	min-height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	font-family: 'Big Shoulders Display', cursive;
+	margin-left: 50px;
+	font-size: 40px;
+}
+
+p {
+	margin-left: 50px;
+	line-height: 1.75;
+	font-size: 15px;
+}
+
+img {
+	width: 50px;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+
+button {
+	background-color: white;
+	width: 150px;
+	height: 40px;
+	border-radius: 60px;
+	border: none;
+	font-size: 16px;
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.container {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	color: white;
+	background-color: white;
+}
+
+
+.sedans {
+	background-color: hsl(31, 77%, 52%);
+	display: flex;
+	width: 300px;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}	
+
+.sedans button {
+	color: hsl(31, 77%, 52%);
+}
+
+
+.suvs {
+	background-color: hsl(184, 100%, 22%);
+	display: flex;
+	width: 300px;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+}
+
+.suvs button {
+	color: hsl(184, 100%, 22%);
+}
+
+
+.luxury {
+	background-color: hsl(179, 100%, 13%);
+	display: flex;
+	width: 300px;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.luxury button {
+	color:  hsl(179, 100%, 13%);
+}
+
+.attribution {
+	margin-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
